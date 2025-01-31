@@ -1,1 +1,8 @@
-# PL2025-A100602
+# PL2025
+
+Repositório para colocação dos TPC da Unidade Curricular de Processamento de Linguagens
+
+# Aluno
+Nome: Beatriz Fernandes
+
+Número: A100602
