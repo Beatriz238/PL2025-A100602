@@ -27,7 +27,7 @@ def processar_moedas(saldo_atual, moedas):
     saldo_centavos = 0
     moedas_validas = {'5c': 5, '10c': 10, '20c': 20, '50c': 50, '1e': 1, '2e': 2}
     for moeda in moedas:
-        moeda_lower = moeda.lower()  # Converter para minúsculas
+        moeda_lower = moeda.lower()
         if moeda_lower in moedas_validas:
             valor = moedas_validas[moeda_lower]
             if moeda_lower.endswith('e'):
@@ -58,7 +58,6 @@ def selecionar_produto(stock, saldo, cod_produto):
     print("maq: Produto não existe.")
     return saldo
 
-# Calcular o troco
 def calcular_troco(saldo):
     moedas = {200: "2e", 100: "1e", 50: "50c", 20: "20c", 10: "10c", 5: "5c"}
     troco = {}
@@ -70,7 +69,7 @@ def calcular_troco(saldo):
 
 def main():
     stock = carregar_stock()
-    saldo = 0  # Inicializar corretamente o saldo
+    saldo = 0
     print(f"maq: {datetime.now().date()}, Stock carregado, Estado atualizado.")
     print("maq: Bom dia. Estou disponível para atender o seu pedido.")
     print("maq: Escolha dos seguintes comandos:")
