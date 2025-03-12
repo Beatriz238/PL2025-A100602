@@ -1,0 +1,56 @@
+[
+    {
+        "cod": "A23",
+        "nome": "\u00c1gua 0.5L",
+        "quant": 8,
+        "preco": 0.7
+    },
+    {
+        "cod": "B24",
+        "nome": "Refrigerante 330ml",
+        "quant": 5,
+        "preco": 1.2
+    },
+    {
+        "cod": "C25",
+        "nome": "Batatas Fritas",
+        "quant": 10,
+        "preco": 1.0
+    },
+    {
+        "cod": "D26",
+        "nome": "Chocolate",
+        "quant": 3,
+        "preco": 1.1
+    },
+    {
+        "cod": "E27",
+        "nome": "Pacote de Bolachas",
+        "quant": 0,
+        "preco": 0.65
+    },
+    {
+        "cod": "F28",
+        "nome": "Sumo de Laranja",
+        "quant": 9,
+        "preco": 1.4
+    },
+    {
+        "cod": "G29",
+        "nome": "Barrita de Cereais",
+        "quant": 12,
+        "preco": 0.5
+    },
+    {
+        "cod": "H30",
+        "nome": "Misto",
+        "quant": 3,
+        "preco": 1.8
+    },
+    {
+        "cod": "I31",
+        "nome": "Croissant",
+        "quant": 8,
+        "preco": 1.8
+    }
+]
